@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="formato.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Productos</h1>
+    </header>
+    <div class="catalog-container" id="catalog">
+    </div>
+
+    <div class="add-product-form">
+        <h2>Agregar Producto</h2>
+        <input type="text" id="product-name" placeholder="Nombre del producto">
+        <input type="number" id="product-price" placeholder="Precio">
+        <input type="file" id="product-image" accept="image/*">
+        <button onclick="addProduct()">Agregar</button>
+    </div>
+
+    <footer>
+        <p class="texto-grande">AluraGeek</p>
+        <p class="text-mid">DESARROLLADO POR BRAYAN LOPEZ VAZQUEZ</p>
+        <p style="color: #777;">ALURA LATAM 202X</p>
+    </footer>
+
+
+</body>
+<script src="script.js"></script>
+</html>
